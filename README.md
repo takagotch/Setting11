@@ -41,11 +41,18 @@ vi config/routes.rb
 curl http://localhost:3000/page/1
 vi app/views/home/index.html.erb
 
+vi app/views/home/page.html.erb
+vi app/views/home/page.html.erb
+rails g controller comments
+vi app/controllers/comments_controller.rb
+vi config/routes.rb
 
-
-
-
-
+vi app/views/home/page.html.erb
+vi app/views/comments/_list.html.erb
+vi app/views/comments/_form.html.erb
+vi app/models/comment.rb
+vi app/controller/comments_controller.rb
+vi app/views/comments/_from.html.erb
 ```
 
 ```
