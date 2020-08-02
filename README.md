@@ -34,15 +34,16 @@ article.comments.create(:from => 'rubyist', :body => 'comment2')
 article.comments.count
 vi app/views/home/index.html.erb
 curl http://localhost:3000/
-curl http://localhost:3000/page/1
 vi app/controllers/home_controller.rb
 vi app/views/home/page.html.erb
 vi config/routes.rb
-curl http://localhost:3000/page/1
 vi app/views/home/index.html.erb
+curl http://localhost:3000/page/1
+
 
 vi app/views/home/page.html.erb
 vi app/views/home/page.html.erb
+vi app/controllers/home_controller.rb
 rails g controller comments
 vi app/controllers/comments_controller.rb
 vi config/routes.rb
@@ -59,6 +60,11 @@ vi app/views/comments/_from.html.erb
 ```
 
 ```
+curl http://localhost:3000/
+curl http://localhost:3000/articles
+curl http://localhost:3000/articles/1
+curl http://localhost:3000/page/1
+
 ```
 
 
